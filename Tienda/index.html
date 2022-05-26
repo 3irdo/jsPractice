@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda</title>
+  </head>
+  <body>
+    <header>
+      <h1>Descuentos del mamoncillo</h1>
+    </header>
+
+    <section>
+      <h2>Calcula el precio a pagar de los productos en descuento</h2>
+
+      <form>
+        <label for="inputPrice">Escribe el precio de tu producto</label>
+        <input type="number" id="inputPrice" />
+
+        <label for="inputDiscount">Escribe el porcentaje de descuento</label>
+        <input id="inputDiscount" type="number" />
+
+        <button type="button" onclick="onClickcalcDiscount()">
+          Calcula el descuento
+        </button>
+
+        <p id="resultPrice"></p>
+      </form>
+    </section>
+    <script src="/Tienda/descuentos.js"></script>
+  </body>
+</html>
